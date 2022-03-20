@@ -9,7 +9,7 @@ let server = http.createServer((req, res) => {
     res.writeHead(200);
 });
 server.listen(httpPort, () => console.log('Started server on', httpPort));
-const wss = new ws.Server({server, path: '/fluorescence'});
+const wss = new ws.Server({server, path: '/diffraction'});
 
 wss.on('connection', handleConnection);
 let connections = new Array;
