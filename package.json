@@ -1,7 +1,7 @@
 {
   "name": "rlab-ws-diffraction",
   "version": "1.0.0",
-  "description": "Diffraction lab real-time data streaming service",
+  "description": "Diffraction lab real-time hardware control service",
   "author": "Toomas Tahves",
   "license": "GPLV3",
   "private": true,
