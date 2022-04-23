@@ -23,6 +23,7 @@ function handleConnection(client) {
 
     client.on('message', (message) => {
         message = message.toString();
+        message = message.replace(/['"]+/g, '');
         console.log(message);
         handleCommand(message);
     });
